@@ -1,7 +1,7 @@
 >>>
 package Partes;
 public class manchester_city extends oitavas {
-	private String artilheiro;
+	private String Erling_Haaland;
 	
 	@Override
 	public void jogar_em_casa() {

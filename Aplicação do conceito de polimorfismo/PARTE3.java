@@ -1,8 +1,7 @@
 >>>
 package Partes;
-public class manchester_united extends oitavas {
+public class manchester_united extends Oitavas {
 	private String cristiano_ronaldo;
-	
 	@Override
 	public void jogar_em_casa() {
 		System.out.println("Old Trafford");
@@ -14,8 +13,8 @@ public class manchester_united extends oitavas {
 	public String getCristiano_ronaldo() {
 		return cristiano_ronaldo;
 	}
-	public void setCristiano_ronaldo(String Erling_Haaland) {
-		this.Erling_Haaland = Erling_Haaland;
+	public void setCristiano_ronaldo(String cristiano_ronaldo) {
+		this.cristiano_ronaldo = cristiano_ronaldo;
 	}
 }
 >>>

@@ -1,5 +1,5 @@
 >>>
-package arquivo1;
+package Partes;
 public abstract class animal {
 	/* Atributos de animal. */
 	protected float peso;

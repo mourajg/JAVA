@@ -10,3 +10,10 @@ programa, do manuseio das coisas do mundo real. Esse paradigma se baseia em 4 pi
 <li> ENCAPSULAMENTO > Propriedade que esconde os atributos de um objeto, tornando nossa aplicação mais segura. Vamos criar uma analogia, imagine uma conta bancária onde qualquer pessoa possa alterar o saldo? Isso seria horrível para nossa aplicação, então encapsulamos o saldo e manipulamos através de métodos como sacar, depositar e transferir.
 
 <p> BENEFÍCIOS DA PROGRAMAÇÃO ORIENTADA AOS OBJETOS - Orientação aos objetos propõe uma representação mais fácil de ser compreendida pois pode ser comparada ao mundo real. Outro benefício que podemos citar é o reaproveitamento do código.
+
+<p> SOLID > É um acrônimo que representa cinco princípios da programação orientada aos objetos.
+<li> RESPONSABILIDADE ÚNICA - Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade dentro do software.
+<li> ABERTO FECHADO - Quando novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original.
+<li> SUBSTITUIÇÃO DE LISKOV - Uma classe derivada deve ser substituível por sua classe base.
+<li> SEGREGAÇÃO DA INTERFACE - É melhor criar interfaces mais específicas ao invés de termos uma única interface genérica.
+<li> INVERSÃO DE DEPENDÊNCIA - Depende de abstrações e não de implementações.

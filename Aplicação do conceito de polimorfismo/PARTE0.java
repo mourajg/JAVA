@@ -1,9 +1,9 @@
 >>>
 public class Partes {
 	public static void main(String[] args) {
-		oitavas n = new oitavas();
+		Oitavas n = new Oitavas();
 		manchester_city c = new manchester_city();
-		manchester_city u = new manchester_city();
+		manchester_united u = new manchester_united();
 		
 		c.gols_time1(3);
 		c.Erling_Haaland(3);

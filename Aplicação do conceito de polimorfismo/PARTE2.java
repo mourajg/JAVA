@@ -1,14 +1,15 @@
 >>>
 package Partes;
-public class mamifero extends animal {
-	private String corPelo;
+public class manchester_city extends oitavas {
+	private String artilheiro;
 	
 	@Override
-	public void locomover() {
-		System.out.println("Correndo");
+	public void jogar_em_casa() {
+		System.out.println("Etihad Stadium");
 	}
 	@Override
-	public void alimentar() {
-		System.out.println("Mamando");
+	public void jogar_fora_de_casa() {
+		System.out.println("Old Trafford");
 	}
 }
+>>>

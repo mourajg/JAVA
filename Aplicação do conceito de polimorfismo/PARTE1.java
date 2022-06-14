@@ -7,5 +7,11 @@ public abstract class oitavas {
 	/* Métodos de oitavas. */
 	public abstract void jogar_em_casa();
 	public abstract void jogar_fora_de_casa();
+	public int getGols_time1() {
+		return gols_time1;
+	}
+	public int getGols_time2() {
+		return gols_time2;
+	}
 }
 >>>

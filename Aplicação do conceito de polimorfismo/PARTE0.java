@@ -6,7 +6,7 @@ public class Partes {
 		manchester_united u = new manchester_united();
 		
 		c.gols_time1(3);
-		c.Erling_Haaland(3);
+		c.erling_haaland(3);
 		c.jogar_em_casa("2 gols do Haaland");
 		c.jogar_fora_de_casa("1 gol do Haaland");
 		u.gols_time2(2);

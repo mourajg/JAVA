@@ -11,8 +11,8 @@
 <p> BENEFÍCIOS DA PROGRAMAÇÃO ORIENTADA AOS OBJETOS - Orientação aos objetos propõe uma representação mais fácil de ser compreendida pois pode ser comparada ao mundo real. Outro benefício que podemos citar é o reaproveitamento do código.
 
 <p> S - O - L - I - D > É um acrônimo que representa os cinco princípios da programação orientada aos objetos.
-<li> S - Single responsibility > Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade.
-<li> O - Opened and closed > Esse princípio declara que quando novos comportamentos e recursos precisam ser adicionados, devemos estender e não alterar o código fonte original.
-<li> L - Liskov substitution > Esse princípio declara que uma classe derivada deve ser substituível por sua classe base.
-<li> I - Interface segregation > Esse princípio declara que é melhor criar interfaces mais específicas que uma única interface genérica.
-<li> D - Dependency inversion > Esse princípio declara que módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração. Declara também que abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+<li> Single responsibility > Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade.
+<li> Opened and closed > Esse princípio declara que quando novos comportamentos e recursos precisam ser adicionados, devemos estender e não alterar o código fonte original.
+<li> Liskov substitution > Esse princípio declara que uma classe derivada deve ser substituível por sua classe base.
+<li> Interface segregation > Esse princípio declara que é melhor criar interfaces mais específicas que uma única interface genérica.
+<li> Dependency inversion > Esse princípio declara que módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração. Declara também que abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.

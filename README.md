@@ -1,8 +1,7 @@
 <h1 align = "center"> GUIA JAVA </h1>
 <h2> IMPORTANTE SABER </h2>
 
-<p> JAVA é uma linguagem de programação ORIENTADA AOS OBJETOS, mas o que significa isso? O objetivo da orientação aos objetos é aproximar o manuseio das estruturas de um
-programa, do manuseio das coisas do mundo real. Esse paradigma se baseia em 4 pilares, são eles: </p>
+<p> JAVA é uma linguagem de programação ORIENTADA AOS OBJETOS, mas o que significa isso? O objetivo da orientação aos objetos é aproximar o manuseio das estruturas de um programa, do manuseio das coisas do mundo real. Esse paradigma se baseia em 4 pilares, são eles: </p>
 
 <li> HERANÇA > É uma forma de eliminar repetições no código, onde, como o próprio nome sugere, um objeto pode herdar características de outra classe, sem necessidade de se reescrever essas mesmas características. Ao criar uma entidade Pessoa, podemos afirmar que toda Pessoa possui um Nome. Por outro lado, todo Aluno também deveria ter um Nome, sendo assim, para que todo Aluno tenha um Nome, fazemos com que o Aluno, herde o Nome de Pessoa, pois todo Aluno é uma Pessoa.
 <li> POLIMORFISMO > Se refere à capacidade de dois ou mais objetos responderem à mesma mensagem, cada um de seu próprio modo. Suponhamos os objetos Colaborador, Gerente e Presidente, para inserir quem exerce cada função, deveríamos colocar insereColaborador, insereGerente e inserePresindente, com o polimorfismo podemos colocar apenas insere para todos os objetos.
@@ -11,9 +10,9 @@ programa, do manuseio das coisas do mundo real. Esse paradigma se baseia em 4 pi
 
 <p> BENEFÍCIOS DA PROGRAMAÇÃO ORIENTADA AOS OBJETOS - Orientação aos objetos propõe uma representação mais fácil de ser compreendida pois pode ser comparada ao mundo real. Outro benefício que podemos citar é o reaproveitamento do código.
 
-<p> S / O / L / I / D > É um acrônimo que representa os cinco princípios da programação orientada aos objetos.
-<li> RESPONSABILIDADE ÚNICA - Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade dentro do software.
-<li> ABERTO / FECHADO - Quando novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original.
-<li> SUBSTITUIÇÃO DE LISKOV - Uma classe derivada deve ser substituível por sua classe base.
-<li> SEGREGAÇÃO DA INTERFACE - É melhor criar interfaces mais específicas ao invés de termos uma única interface genérica.
-<li> INVERSÃO DE DEPENDÊNCIA - Depender de abstrações e não de implementações.
+<p> S - O - L - I - D > É um acrônimo que representa os cinco princípios da programação orientada aos objetos.
+<li> S - Single responsibility > Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade.
+<li> O - Opened and closed > Esse princípio declara que quando novos comportamentos e recursos precisam ser adicionados, devemos estender e não alterar o código fonte original.
+<li> L - Liskov substitution > Esse princípio declara que uma classe derivada deve ser substituível por sua classe base.
+<li> I - Interface segregation > Esse princípio declara que é melhor criar interfaces mais específicas que uma única interface genérica.
+<li> D - Dependency inversion > Esse princípio declara que módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração. Declara também que abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.

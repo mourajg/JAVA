@@ -16,3 +16,10 @@
 <li> Liskov substitution > Esse princípio declara que uma classe derivada deve ser substituível por sua classe base.
 <li> Interface segregation > Esse princípio declara que é melhor criar interfaces mais específicas que uma única interface genérica.
 <li> Dependency inversion > Esse princípio declara que módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração. Declara também que abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+	
+<p> S - O - L - I - D > It is an acronym that stands for the five principles of object-oriented programming.
+<li> Single responsibility > This principle states that a class must be specialized in a single subject and have only one responsibility.
+<li> Opened and closed > This principle states that when new behaviors and features need to be added, we should extend and not change the original source code.
+<li> Liskov substitution > This principle declares that a derived class must be substitutable for its base class.
+<li> Interface segregation > This principle states that it is better to create more specific interfaces than a single generic interface.
+<li> Dependency inversion > This principle states that high-level modules should not depend on low-level modules. Both must depend on abstraction. It also states that abstractions should not depend on details. Details must depend on abstractions.

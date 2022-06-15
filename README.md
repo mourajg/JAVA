@@ -8,7 +8,8 @@
 <li> ABSTRAÇÃO > Isola de um objeto somente os conceitos que são necessários para o funcionamento do programa. 
 <li> ENCAPSULAMENTO > Propriedade que esconde os atributos de um objeto, tornando nossa aplicação mais segura. Vamos criar uma analogia, imagine uma conta bancária onde qualquer pessoa possa alterar o saldo? Isso seria horrível para nossa aplicação, então encapsulamos o saldo e manipulamos através de métodos como sacar, depositar e transferir.
 
-<p> BENEFÍCIOS DA PROGRAMAÇÃO ORIENTADA AOS OBJETOS - Orientação aos objetos propõe uma representação mais fácil de ser compreendida pois pode ser comparada ao mundo real. Outro benefício que podemos citar é o reaproveitamento do código.
+<p> VANTAGENS DA PROGRAMAÇÃO ORIENTADA AOS OBJETOS - Permite que você represente melhor o mundo real em seus programas. Praticamente tudo no mundo pode ser descrito como um conjunto de propriedades e ações, que é exatamente como os objetos são organizados; Pode ser mais rápido programar. Permite reutilização de objetos em outros programas. Em vez de criar um código do zero, você pode usar um objeto ou método existente e apenas modificar ele para se adequar ao seu programa.
+<p> ADVANTAGES OF OBJECT ORIENTED PROGRAMMING - Allows you to better represent the real world in your programs. Virtually everything in the world can be described as a set of properties and actions, which is exactly how objects are organized; It might be faster to program. Allows reuse of objects in other programs. Instead of creating code from scratch, you can use an existing object or method and just modify it to suit your program.
 
 <p> S - O - L - I - D > É um acrônimo que representa os cinco princípios da programação orientada aos objetos.
 <li> Single responsibility > Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade.

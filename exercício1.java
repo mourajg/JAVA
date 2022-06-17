@@ -5,6 +5,7 @@ public class Medida_de_comprimento {
 	public static void main(String[] args) {
 		double m, dam, hm, km;
 		/* Para fazer os cálculos, vamos considerar 2 metros (Poderia ser qualquer valor). */
+		m = 2;
 		dam = m / 10;
 		hm = m / 100;
 		km = m / 1000;

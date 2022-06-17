@@ -8,11 +8,11 @@
 <li> ABSTRAÇÃO > Consiste na capacidade de extrair um objeto do mundo real para dentro do código e segmentar ele em qualidades e responsabilidades bem definidas.
 <li> ENCAPSULAMENTO > Consiste em uma forma de proteger determinadas propriedades de um objeto. Dessa forma evitamos que essas propriedades recebam valores indesejáveis. Por exemplo, imagine uma conta bancária onde qualquer pessoa possa alterar o saldo? Isso seria horrível para nossa aplicação, então encapsulamos o saldo e manipulamos através de métodos como sacar, depositar e transferir.
 
-<p> JAVA is an OBJECT-ORIENTED programming language, but what does that mean? The purpose of object orientation is to bring the handling of program structures closer to handling things in the real world. This paradigm is based on 4 pillars, they are: </p>
+<p> JAVA is an OBJECT ORIENTED programming language, but what does that mean? The purpose of object orientation is to bring the handling of program structures closer to handling things in the real world. This paradigm is based on 4 pillars, they are: </p>
 
 <li> INHERITANCE > Consists of the ability of an object to inherit characteristics from another class. For example, if we create a Person entity, we can say that every Person has a Name. On the other hand, every Student can also have a Name, as every Student is a Person.
 <li> POLYMORPHISM > Consists of the specialization of descendant classes. For example, a Student entity would have an Enrollment as a characteristic, even if Person (Student Ascendant) does not. In this case, we can say that Aluno would still have its base coming from Pessoa, but it would have changes to its specific functionality.
-<li> ABSTRACTION > Consists of the ability to extract an object from the real world into the code and segment it into well-defined qualities and responsibilities.
+<li> ABSTRACTION > Consists of the ability to extract an object from the real world into the code and segment it into well defined qualities and responsibilities.
 <li> ENCAPSULATION > Consists of a way to protect certain properties of an object. In this way, we avoid that these properties receive undesirable values. For example, imagine a bank account where anyone can change the balance? That would be horrible for our application, so we encapsulate the balance and manipulate it through methods like withdrawing, depositing, and transferring.
 
 <p> VANTAGENS DA PROGRAMAÇÃO ORIENTADA AOS OBJETOS - Permite que você represente melhor o mundo real em seus programas. Praticamente tudo no mundo pode ser descrito como um conjunto de propriedades e ações, que é exatamente como os objetos são organizados; Pode ser mais rápido programar. Permite reutilização de objetos em outros programas. Em vez de criar um código do zero, você pode usar um objeto ou método existente e apenas modificar ele para se adequar ao seu programa.
@@ -25,9 +25,9 @@
 <li> Interface segregation > Esse princípio declara que é melhor criar interfaces mais específicas que uma única interface genérica.
 <li> Dependency inversion > Esse princípio declara que módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração. Declara também que abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
 	
-<p> S - O - L - I - D > It is an acronym that stands for the five principles of object-oriented programming.
+<p> S - O - L - I - D > It is an acronym that stands for the five principles of object oriented programming.
 <li> Single responsibility > This principle states that a class must be specialized in a single subject and have only one responsibility.
 <li> Opened and closed > This principle states that when new behaviors and features need to be added, we should extend and not change the original source code.
 <li> Liskov substitution > This principle declares that a derived class must be substitutable for its base class.
 <li> Interface segregation > This principle states that it is better to create more specific interfaces than a single generic interface.
-<li> Dependency inversion > This principle states that high-level modules should not depend on low-level modules. Both must depend on abstraction. It also states that abstractions should not depend on details. Details must depend on abstractions.
+<li> Dependency inversion > This principle states that high level modules should not depend on low level modules. Both must depend on abstraction. It also states that abstractions should not depend on details. Details must depend on abstractions.

@@ -1,6 +1,5 @@
 >>>
 /* Desenvolva um programa que, ao inserir uma medida de comprimento em metro, converta e exiba em decâmetro, hectômetro e quilômetro. */
-
 package exercises;
 public class Medida_de_comprimento {
 	public static void main(String[] args) {

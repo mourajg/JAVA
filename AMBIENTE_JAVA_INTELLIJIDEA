@@ -1,7 +1,7 @@
 >>>
 > Pesquise por "JDK download" e baixe pelo site da Oracle, selecionando "x64 Compressed Archive".
 > Copie o JDK (Pasta inteira) e cole em ARQUIVO DE PROGRAMAS.
-> Baixe e instale o INTELLIJ.
+> Baixe e instale o INTELLIJ IDEA.
 > Clique com o botão direito em INICIAR, no seu computador, vá em SISTEMA e clique em CONFIGURAÇÕES AVANÇADAS DO SISTEMA.
 > Vá em VARIÁVEIS DE AMBIENTE, VARIÁVEIS DO SISTEMA, clique em NOVO e crie uma com o nome "JAVA_HOME", na aba NOME DA VARIÁVEL.
 > No VALOR DA VARIÁVEL coloque o caminho para chegar no JDK.

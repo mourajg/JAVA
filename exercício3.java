@@ -1,5 +1,6 @@
 >>>
-/* Desenvolva um programa que, peça ao usuário para inserir uma informação de LOGIN e armazene o que foi inserido em uma variável. Em seguida peça uma SENHA, essa será armazenada em outra variável. Por fim, verifique se LOGIN e SENHA são iguais aos que foram definidos. */
+/* Desenvolva um programa que, peça ao usuário para inserir uma informação de LOGIN e armazene o que foi inserido em uma variável. Em seguida peça uma SENHA, essa será
+armazenada em outra variável. Por fim, verifique se LOGIN e SENHA são iguais aos que foram definidos. */
 import java.util.Scanner;
 public class exercises {
 	public static void main(String[] args) {

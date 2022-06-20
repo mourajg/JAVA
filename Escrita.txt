@@ -1,0 +1,7 @@
+>>>
+MinhaClasse - AlunoEngenharia
+meuAtributo - nomeAluno
+minhaVariável - médiaPrimeiroBimestre
+meuMétodo - lançarNotaAluno
+meu_pacote - meurepositório
+MINHA_CONSTANTE - NÚMERO

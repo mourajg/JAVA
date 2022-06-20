@@ -1,5 +1,5 @@
 >>>
-/* Crie um programa que peça ao usuário os salários de um grupo de programadores e calcule o valor médio dos mesmos. */
+/* Crie um programa que peça ao usuário os salários de um grupo de programadores e calcule o valor médio deles. */
 package exercises;
 public class Média_salários { /* Atenção aqui, o programa não irá funcionar com esses acentos. */
 	public static void main(String[] args) {

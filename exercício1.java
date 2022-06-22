@@ -1,10 +1,10 @@
 >>>
-/* Desenvolva um programa que, ao inserir uma medida de comprimento em metro, converta e exiba em decâmetro, hectômetro e quilômetro. */
+// Desenvolva um programa que, ao inserir uma medida de comprimento em metro, converta e exiba em decâmetro, hectômetro e quilômetro.
 package exercises;
-public class Medida_de_comprimento {
+public class Comprimento {
 	public static void main(String[] args) {
 		double m, dam, hm, km;
-		m = 2; /* Para fazer os cálculos, vamos considerar 2 metros (Poderia ser qualquer valor). */
+		m = 2;
 		dam = m / 10;
 		hm = m / 100;
 		km = m / 1000;

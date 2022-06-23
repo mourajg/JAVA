@@ -1,18 +1,20 @@
 >>>
-// Desenvolva um programa que verifique se LOGIN e SENHA são iguais aos que foram definidos.
+// Desenvolva um programa que some todos os números no intervalo determinado pelo usuário.
 import java.util.Scanner;
-public class exercises {
+public class J1003 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Login: ");
-		String login = in.nextLine();
-		System.out.println("Senha: ");
-		String senha = in.nextLine();
-		if (login.equals("Maria") && senha.equals("123456")) {
-            		System.out.printf("Usuário logado com sucesso!");
-        	} else {
-            		System.out.println("Não encontrado!");
+		System.out.println("Informe o início do intervalo: ");
+		int ini = in.nextInt;
+		System.out.println("Informe o final do intervalo: ");
+		int fim = in.nextInt;
+		int i = ini;
+		int soma = ini;
+		while(i < fim) {
+			i++;
+			soma += i;
 		}
+		Sysrem.out.println(soma);
 	}
 }
 >>>

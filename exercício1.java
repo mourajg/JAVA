@@ -8,9 +8,9 @@ public class JG1 {
 		m = s / 60;
 		h = s / 3600;
 		d = s / 86400;
-		System.out.println("O valor em minutos é: " + m);
-		System.out.println("O valor em horas é: " + h);
-		System.out.println("O valor em dias é: " + d);
+		System.out.println("O valor em minutos: " + m);
+		System.out.println("O valor em horas: " + h);
+		System.out.println("O valor em dias: " + d);
 	}
 }
 >>>

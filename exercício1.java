@@ -1,16 +1,16 @@
 >>>
-// Desenvolva um programa que, ao inserir uma medida de comprimento em metro, converta e exiba em decâmetro, hectômetro e quilômetro.
+// Desenvolva um programa que peça ao usuário um valor em segundos, converta e exiba em minutos, horas e dias.
 package exercises;
-public class Comprimento {
+public class JG1 {
 	public static void main(String[] args) {
-		double m, dam, hm, km;
-		m = 2;
-		dam = m / 10;
-		hm = m / 100;
-		km = m / 1000;
-		System.out.println("O valor em decâmetros é: " + dam);
-		System.out.println("O valor em hectômetros é: " + hm);
-		System.out.println("O valor em quilômetros é: " + km);
+		double s, m, h, d;
+		s = 60;
+		m = s / 60;
+		h = s / 3600;
+		d = s / 86400;
+		System.out.println("O valor em minutos é: " + m);
+		System.out.println("O valor em horas é: " + h);
+		System.out.println("O valor em dias é: " + d);
 	}
 }
 >>>

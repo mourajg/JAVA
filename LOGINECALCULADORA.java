@@ -8,9 +8,11 @@ public class LOGINECALCULADORA {
 		System.out.println ("Senha: ");
 		String senha = in.nextLine ();
 		if (login.equals ("Calculadora") && senha.equals ("123456")) {
-			double valor1, valor2, a, s, m, d;
-			valor1 = 10; // Insira aqui o primeiro valor.
-			valor2 = 20; // Insira aqui o segundo valor.
+			double a, s, m, d;
+            		System.out.println ("Valor 1:  ");
+            		double valor1 = in.nextDouble ();
+            		System.out.println ("Valor 2:  ");
+           		double valor2 = in.nextDouble ();
 			a = valor1 + valor2;
 			s = valor1 - valor2;
 			m = valor1 * valor2;

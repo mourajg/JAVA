@@ -8,7 +8,7 @@ public class DIFERENÇA {
 		System.out.println ("Idade de sua namorada: ");
 		int idadeNamorada = in.nextInt ();
 		int d = idadeEu - idadeNamorada;
-		System.out.println ("Sou %d anos mais velho que minha namorada.", d);
+		System.out.printf ("Sou %d anos mais velho que minha namorada.", d);
 	}
 }
 >>>

@@ -1,4 +1,4 @@
-<h1 align = "center"> GUIA JAVA </h1>
+<h1 align = "center"> JAVA </h1>
 <h2> IMPORTANTE SABER - KNOW IMPORTANT </h2>
 
 <p> JAVA é uma linguagem de programação ORIENTADA AOS OBJETOS, mas o que significa isso? Orientação aos objetos se trata de um paradigma de programação cujo objetivo é aproximar o manuseio das estruturas de um programa, do manuseio de coisas do nosso cotidiano. Esse paradigma se baseia em 4 pilares, são eles: </p>

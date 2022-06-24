@@ -1,8 +1,10 @@
-<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+<div style = "display: inline_block">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+</div>
 <h2> IMPORTANTE SABER - KNOW IMPORTANT </h2>
 
 <p> JAVA é uma linguagem de programação ORIENTADA AOS OBJETOS, mas o que significa isso? Orientação aos objetos se trata de um paradigma de programação cujo objetivo é aproximar o manuseio das estruturas de um programa, do manuseio de coisas do nosso cotidiano. Esse paradigma se baseia em 4 pilares, são eles: </p>

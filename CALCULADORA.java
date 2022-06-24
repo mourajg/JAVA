@@ -1,6 +1,6 @@
 >>>
 public class CALCULADORA {
-	public static void main (String[] args) {
+	public static void main (String [] args) {
 		double valor1, valor2, a, s, m, d;
 		valor1 = 10; // Insira aqui o primeiro valor.
 		valor2 = 20; // Insira aqui o segundo valor.

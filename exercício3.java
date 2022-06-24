@@ -11,7 +11,7 @@ public class JG3 {
 		int i = abertura;
 		int soma = abertura;
 		while (i < fim) {
-			i ++;
+			i++;
 			soma += i;
 		}
 		System.out.println (soma);

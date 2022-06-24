@@ -4,6 +4,11 @@
 	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+	<img align = "center" alt = "JAVA" height = "90" width = "100" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 </div>
 <h2> IMPORTANTE SABER - KNOW IMPORTANT </h2>
 

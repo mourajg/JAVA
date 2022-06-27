@@ -47,7 +47,7 @@ public class CALCULADORA2 {
 	}
 	public static void main (String [] args) {
 		int x;
-		Scanner entrada = new Scanner (System.in);
+		Scanner in = new Scanner (System.in);
 		do {
 			menu ();
 			x = entrada.nextInt ();

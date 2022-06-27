@@ -46,28 +46,28 @@ public class CALCULADORA2 {
 		System.out.println ("valor 1 / valor 2 = " + d);
 	}
 }
-	public static void main (String [] args) {
-		int x;
-		Scanner entrada = new Scanner (System.in);
-		do {
-			menu();
-			x = entrada.nextInt ();
-			switch (x) {
-				case 1:
-					somar ();
-					break;  
-				case 2:
-					subtrair ();
-					break;
-				case 3:
-					multiplicar ();
-					break;
-				case 4:
-					dividir ();
-					break;
-				default:
-					System.out.println("Erro!");
-			}
-		} while (x != 0);
-	}
+public static void main (String [] args) {
+	int x;
+	Scanner entrada = new Scanner (System.in);
+	do {
+		menu();
+		x = entrada.nextInt ();
+		switch (x) {
+			case 1:
+				somar ();
+				break;  
+			case 2:
+				subtrair ();
+				break;
+			case 3:
+				multiplicar ();
+				break;
+			case 4:
+				dividir ();
+				break;
+			default:
+				System.out.println ("Erro!");
+		}
+	} while (x != 0);
+}
 >>>

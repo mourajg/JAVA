@@ -1,9 +1,13 @@
 >>>
-public class CALCULADORA {
+import java.util.Scanner;
+public class CALCULADORA1 {
 	public static void main (String [] args) {
-		double valor1, valor2, a, s, m, d;
-		valor1 = 10; // Insira aqui o primeiro valor.
-		valor2 = 20; // Insira aqui o segundo valor.
+		Scanner in = new Scanner (System.in);
+		double a, s, m, d;
+            	System.out.println ("Valor 1:  ");
+            	double valor1 = in.nextDouble ();
+            	System.out.println ("Valor 2:  ");
+           	double valor2 = in.nextDouble ();
 		a = valor1 + valor2; // Adição.
 		s = valor1 - valor2; // Subtração.
 		m = valor1 * valor2; // Multiplicação.

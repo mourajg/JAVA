@@ -50,7 +50,7 @@ public static void main (String [] args) {
 	int x;
 	Scanner entrada = new Scanner (System.in);
 	do {
-		menu();
+		menu ();
 		x = entrada.nextInt ();
 		switch (x) {
 			case 1:

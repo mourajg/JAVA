@@ -13,10 +13,10 @@ public class CADASTROCONSULTA1 {
 		}
 		String consulta;
 		System.out.println ("Insira o nome para consulta: ");
-		buscadenome = new Scanner (System.in).next ();
+		consulta = new Scanner (System.in).next ();
 		boolean inexistente = true;
 		for (int x = 0; x < i; x ++) {
-			if (buscadenome.equals (nome [x])) {
+			if (consulta.equals (nome [x])) {
 				System.out.println (nome [x]);
 				inexistente = false;
 			}

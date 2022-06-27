@@ -11,7 +11,7 @@ public class CADASTROCONSULTA2 {
 		int [] idade = new int [i];
 		String [] nome = new String [i];
 		for (int x = 0; x < i; x ++) {
-			System.out.println ("Pessoa " + (1 + x));
+			System.out.println ("Nome da pessoa " + (1 + x));
 			nome [x] = new Scanner (System.in).next ();
 			System.out.println ("Idade da pessoa " + (1 + x));
 			idade [x] = new Scanner (System.in).nextInt ();
@@ -34,7 +34,7 @@ public class CADASTROCONSULTA2 {
 			}
 		}
 		if (inexistente) {
-			System.out.println("Nome inexistente");
+			System.out.println("Cadastro inexistente");
 		}
 	}
 }

@@ -10,6 +10,7 @@ public class CALCULADORA2 {
 		System.out.println ("4 - Dividir");
 	}
 	public static void somar () {
+		Scanner in = new Scanner (System.in);
 		double a;
 		System.out.println ("Valor 1:  ");
 		double valor1 = in.nextDouble ();
@@ -19,6 +20,7 @@ public class CALCULADORA2 {
 		System.out.println ("valor 1 + valor 2 = " + a);
 	}
 	public static void subtrair () {
+		Scanner in = new Scanner (System.in);
 		double s;
 		System.out.println ("Valor 1:  ");
 		double valor1 = in.nextDouble ();
@@ -28,6 +30,7 @@ public class CALCULADORA2 {
 		System.out.println ("valor 1 - valor 2 = " + s);
 	}
 	public static void multiplicar () {
+		Scanner in = new Scanner (System.in);
 		double m;
 		System.out.println ("Valor 1:  ");
 		double valor1 = in.nextDouble ();
@@ -37,6 +40,7 @@ public class CALCULADORA2 {
 		System.out.println ("valor 1 * valor 2 = " + m);
 	}
 	public static void dividir () {
+		Scanner in = new Scanner (System.in);
 		double d;
 		System.out.println ("Valor 1:  ");
 		double valor1 = in.nextDouble ();
@@ -50,11 +54,11 @@ public class CALCULADORA2 {
 		Scanner in = new Scanner (System.in);
 		do {
 			menu ();
-			x = entrada.nextInt ();
+			x = in.nextInt ();
 			switch (x) {
 				case 1:
 					somar ();
-					break;  
+					break;
 				case 2:
 					subtrair ();
 					break;

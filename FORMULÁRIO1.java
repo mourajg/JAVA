@@ -1,33 +1,52 @@
 >>>
+// Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class LOGINECALCULADORA {
-	public static void main (String [] args) {
+public class FORMULÁRIO1 {
+	public static void menu () {
+		System.out.println ("MENU");
+		System.out.println ("1 - Cadastrar");
+		System.out.println ("2 - Entrar");
+	}
+	public static void cadastrar () {
 		Scanner in = new Scanner (System.in);
-		System.out.println ("O que deseja? 1 - Calculadora;");
-		String desejo = in.nextLine ();
-		if (desejo.equals ("1")) {
-			double a, s, m, d;
-            		System.out.println ("Valor 1:  ");
-            		double valor1 = in.nextDouble ();
-            		System.out.println ("Valor 2:  ");
-           		double valor2 = in.nextDouble ();
-			a = valor1 + valor2;
-			s = valor1 - valor2;
-			m = valor1 * valor2;
-			d = valor1 / valor2;
-			System.out.println ("valor 1 + valor 2 = " + a);
-			System.out.println ("valor 1 - valor 2 = " + s);
-			System.out.println ("valor 1 * valor 2 = " + m);
-			System.out.println ("valor 1 / valor 2 = " + d);
+		System.out.println ("NOME: ");
+		String nome = in.nextLine ();
+		System.out.println ("IDADE: ");
+		int idade = in.nextInt ();
+		System.out.println ("SEXO (M ou F): ");
+		char sexo = in.nextChar ();
+		System.out.println ("SENHA (2 digitos): ");
+		byte senha = in.nextByte ();
+	)
+	public static void entrar () {
+		System.out.println ("Nome: ");
+		String n = in.nextLine ();
+		System.out.println ("Senha: ");
+		byte s = in.nextByte ();
+		if (n == nome && s == senha) {
+			System.out.printf ("Nome: " + nome);
+			System.out.printf ("Idade: " + idade);
+			System.out.printf ("Sexo: " + sexo);
 		} else {
-			double average;
-			System.out.println ("Valor 1:  ");
-            		double valor1 = in.nextDouble ();
-            		System.out.println ("Valor 2:  ");
-           		double valor2 = in.nextDouble ();
-			average = (valor1 + valor2) / 2;
-			System.out.println (average);
+			System.out.println ("Sem sucesso.");
 		}
 	}
+	public static void main (String [] args) {
+		int x;
+		Scanner in = new Scanner (System.in);
+		do {
+			menu ();
+			x = in.nextInt ();
+			switch (x) {
+				case 1:
+					cadastrar ();
+					break;
+				case 2:
+					entrar ();
+					break;
+				default:
+					System.out.println ("Erro!");
+			}
+		} while (x != 0);
+	}
 }
->>>

@@ -1,4 +1,5 @@
 >>>
+// Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
 public class CALCULADORA1 {
 	public static void main (String [] args) {

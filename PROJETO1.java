@@ -5,7 +5,7 @@ public class LOGINECALCULADORA {
 		Scanner in = new Scanner (System.in);
 		System.out.println ("O que deseja? 1 - Calculadora;");
 		String desejo = in.nextLine ();
-		if (desejo.equals ("Calculadora")) {
+		if (desejo.equals ("1")) {
 			double a, s, m, d;
             		System.out.println ("Valor 1:  ");
             		double valor1 = in.nextDouble ();
@@ -20,7 +20,13 @@ public class LOGINECALCULADORA {
 			System.out.println ("valor 1 * valor 2 = " + m);
 			System.out.println ("valor 1 / valor 2 = " + d);
 		} else {
-			System.out.println ("Sem sucesso.");
+			double average;
+			System.out.println ("Valor 1:  ");
+            		double valor1 = in.nextDouble ();
+            		System.out.println ("Valor 2:  ");
+           		double valor2 = in.nextDouble ();
+			average = (valor1 + valor2) / 2;
+			System.out.println (average);
 		}
 	}
 }

@@ -6,18 +6,17 @@ public class CADASTROCONSULTA2 {
 		int i;
 		System.out.println ("Quantidade de pessoas para cadastrar: ");
 		i = new Scanner (System.in).nextInt ();
+		String [] curso = new String [i];
+		String [] cpf = new String [i];
+		int [] idade = new int [i];
 		String [] nome = new String [i];
 		for (int x = 0; x < i; x ++) {
 			System.out.println ("Pessoa " + (1 + x));
 			nome [x] = new Scanner (System.in).next ();
-		}
-		String [] cpf = new String [i];
-		for (int x = 0; x < i; x ++) {
+			System.out.println ("Idade da pessoa " + (1 + x));
+			idade [x] = new Scanner (System.in).nextInt ();
 			System.out.println ("CPF da pessoa " + (1 + x));
 			cpf [x] = new Scanner (System.in).next ();
-		}
-		String [] curso = new String [i];
-		for (int x = 0; x < i; x ++) {
 			System.out.println ("Curso da pessoa " + (1 + x));
 			curso [x] = new Scanner (System.in).next ();
 		}
@@ -28,10 +27,10 @@ public class CADASTROCONSULTA2 {
 		for (int x = 0; x < i; x ++) {
 			if (consulta.equals (nome [x])) {
 				System.out.println ("Pessoa encontrada!");
-				System.out.println ("NOME: " + nome [x]);
-				System.out.println ("CPF: " + cpf [x]);
-				System.out.println ("CURSO: " + curso [x]);
-				inexistente = false;
+				System.out.println (nome [x]);
+				System.out.println (idade [x]);
+				System.out.println (cpf [x]);
+				System.out.println (curso [x]);
 			}
 		}
 		if (inexistente) {

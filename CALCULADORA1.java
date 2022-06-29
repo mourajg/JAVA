@@ -5,9 +5,9 @@ public class CALCULADORA1 {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
 		double a, s, m, d;
-		System.out.println ("Valor 1:  ");
+		System.out.println ("Valor 1: ");
 		double valor1 = in.nextDouble ();
-		System.out.println ("Valor 2:  ");
+		System.out.println ("Valor 2: ");
 		double valor2 = in.nextDouble ();
 		a = valor1 + valor2; // Adição.
 		s = valor1 - valor2; // Subtração.

@@ -1,7 +1,7 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class CADASTROCONSULTA2 {
+public class CADASTROCONSULTA {
 	public static void main (String [] args) {
 		int i;
 		System.out.println ("Quantidade de pessoas para cadastrar: ");
@@ -34,7 +34,7 @@ public class CADASTROCONSULTA2 {
 			}
 		}
 		if (inexistente) {
-			System.out.println("Cadastro inexistente");
+			System.out.println ("Cadastro inexistente.");
 		}
 	}
 }

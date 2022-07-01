@@ -7,7 +7,7 @@ public class TABUADAUSANDOFOR {
 		int x;
 		System.out.printf ("Tabuada de qual número você gostaria de ver? ");
 		int n = in.nextInt ();
-		for (int i = 0; i < 10; i ++) {
+		for (int i = 0; i < 10; i++) {
 			x = n * (1 + i);
 			System.out.println (x);
 		}

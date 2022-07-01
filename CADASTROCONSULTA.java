@@ -24,7 +24,7 @@ public class CADASTROCONSULTA {
 		System.out.println ("Insira o nome para consulta: ");
 		consulta = new Scanner (System.in).next ();
 		boolean inexistente = true;
-		for (int x = 0; x < i; x ++) {
+		for (int x = 0; x < i; x++) {
 			if (consulta.equals (nome [x])) {
 				System.out.println ("Pessoa encontrada!");
 				System.out.println (nome [x]);

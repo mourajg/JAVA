@@ -1,7 +1,7 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class EXERCÍCIO4 {
+public class exercício1 {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
 		double d;

@@ -1,7 +1,7 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class EXERCÍCIO8 {
+public class exercício3 {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
 		System.out.println ("Insira um valor: ");

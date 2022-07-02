@@ -1,7 +1,7 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class EXERCÍCIO6 {
+public class exercício2 {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
 		System.out.println ("Valor 1: ");
@@ -14,10 +14,10 @@ public class EXERCÍCIO6 {
 		}
 		if (valor1 > valor2) {
 			System.out.printf ("O valor %s é maior.", valor1);
-			System.out.printf ("O valor %s é menor.", valor2);
+			System.out.printf ("\nO valor %s é menor.", valor2);
 		} else {
 			System.out.printf ("O valor %s é maior.", valor2);
-			System.out.printf ("O valor %s é menor.", valor1);
+			System.out.printf ("\nO valor %s é menor.", valor1);
 		}
 	}
 }

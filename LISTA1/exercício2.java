@@ -1,16 +1,16 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class EXERCÍCIO2 {
+public class exercício2 {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
-		double valoremr;
+		double r;
 		System.out.println ("1 dólar = Quantos reais? ");
 		double c = in.nextDouble ();
 		System.out.println ("Valor em dólares: ");
-		double valoremd = in.nextDouble ();
-		valoremr = valoremd * c;
-		System.out.println ("Essa quantidade em dólares deu essa quantidade em reais: " + valoremr);
+		double d = in.nextDouble ();
+		r = d * c;
+		System.out.printf ("Essa quantidade em dólares deu %s reais.", r);
 	}
 }
 >>>

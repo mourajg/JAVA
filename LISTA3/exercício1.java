@@ -12,7 +12,7 @@ public class exercício1 {
 		System.out.print("Insira o segundo valor: ");
 		valor2 = in.nextDouble ();
 		while (loopmenu) {
-		System.out.print("1 - Um dos números é ou não múltiplo do outro.\n2 - Os números são pares.\n3 - A média dos números é maior ou igual 7.\n4 - Sair.");
+			System.out.print("1 - Um dos números é ou não múltiplo do outro.\n2 - Os números são pares.\n3 - A média dos números é maior ou igual 7.\n4 - Sair.");
 			menu = in.nextInt ();
 			switch (menu) {
 				case 1:

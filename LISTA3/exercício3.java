@@ -5,19 +5,16 @@ public class exercício3 {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
 		int quantidade;
-		System.out.print("Digite a quantidade de números: ");
-		quantidade = entrada.nextInt();
-		
-		int[] Numeros = new int[quantidade];
-		
-		for(int x=0;x<quantidade;x++){
-			System.out.print("Digite o "+(x+1)+"° Número: ");
-			Numeros[x]= entrada.nextInt();
+		System.out.print ("Quantidade de números: ");
+		quantidade = in.nextInt ();
+		int [] números = new int [quantidade];
+		for (int x = 0; x < quantidade; x ++) {
+			System.out.println ("Digite o "+ (x + 1) +" número: ");
+			números [x] = in.nextInt ();
 		}
-		System.out.print("\nA ordem contrária é:\n");
-		for(int y=quantidade-1;y>=0;y--){
-			System.out.println(Numeros[y]);
+		for (int y = quantidade - 1; y >= 0; y --) {
+			System.out.println (números [y]);
 		}
-
 	}
 }
+>>>

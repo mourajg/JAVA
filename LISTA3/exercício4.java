@@ -1,34 +1,27 @@
+>>>
+// Por João Gabriel Amaral de Moura
 import java.util.Scanner;
-
-public class Exercicio {
-
-	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
-
-		int NumeroComponentes;
-
-		System.out.print("Digite o número de posições: ");
-		NumeroCOmponentes = entrada.nextInt();
-		System.out.println();
-
-		int[]v1= new int[NumeroComponentes];
-		int[]v2= new int[NumeroComponentes];
-
-		for(int x=0;x<NumeroComponentes;x++){
-			System.out.print("Digite um valor para a posição "+(x+1)+" do vetor 1: ");
-			v1[x]= entrada.nextInt();
+public class exercício4 {
+	public static void main (String [] args) {
+		Scanner in = new Scanner (System.in);
+		int componentes;
+		System.out.println ("Insira o número de posições: ");
+		componentes = in.nextInt();
+		int [] v1 = new int [componentes];
+		int [] v2 = new int [componentes];
+		for (int x = 0; x < componentes; x ++) {
+			System.out.println ("Insira o valor da posição "+ (x + 1) +" do vetor 1: ");
+			v1 [x] = in.nextInt ();
 		}
-		for(int x=0;x<NumeroComponentes;x++){
-			System.out.print("Digite um valor para a posição "+(x+1)+" do vetor 2: ");
-			v2[x]= entrada.nextInt();
+		for (int x = 0; x < componentes; x ++) {
+			System.out.print ("Insira o valor da posição "+ (x + 1) +" do vetor 2: ");
+			v2 [x] = in.nextInt ();
 		}
-		System.out.println();
-		for(int x=0;x<NumeroComponentes;x++){
-			if(v1[x]==v2[x]){
-				System.out.println("Valores das Posições "+(x+1)+" dos vetores é igual.");
+		for (int x = 0; x < componentes; x ++) {
+			if (v1 [x] == v2 [x]) {
+				System.out.println ("Valores das posições "+ (x + 1) +" dos vetores é igual.");
 			}
 		}
-
-
 	}
 }
+>>>

@@ -1,7 +1,8 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class CALCULADORA2 {
+public class CALCULADORA {
+	// Menu.
 	public static void menu () {
 		System.out.println ("MENU");
 		System.out.println ("1 - Somar");
@@ -9,6 +10,7 @@ public class CALCULADORA2 {
 		System.out.println ("3 - Multiplicar");
 		System.out.println ("4 - Dividir");
 	}
+	// Função somar.
 	public static void somar () {
 		Scanner in = new Scanner (System.in);
 		double a;

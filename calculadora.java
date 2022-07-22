@@ -1,7 +1,7 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class Calculadora {
+public class calculadora {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in);
 		double somar, subtrair, multiplicar, dividir;

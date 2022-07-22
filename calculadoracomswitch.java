@@ -1,8 +1,7 @@
 >>>
 // Por João Gabriel Amaral de Moura.
 import java.util.Scanner;
-public class CALCULADORA {
-	// Menu.
+public class calculadora {
 	public static void menu () {
 		System.out.println ("MENU");
 		System.out.println ("1 - Somar");
@@ -13,43 +12,46 @@ public class CALCULADORA {
 	// Função somar.
 	public static void somar () {
 		Scanner in = new Scanner (System.in);
-		double a;
+		double soma;
 		System.out.println ("Valor 1: ");
 		double valor1 = in.nextDouble ();
 		System.out.println ("Valor 2: ");
 		double valor2 = in.nextDouble ();
-		a = valor1 + valor2;
-		System.out.println ("valor 1 + valor 2 = " + a);
+		soma = valor1 + valor2;
+		System.out.println ("valor 1 + valor 2 = " + soma);
 	}
+	// Função subtrair.
 	public static void subtrair () {
 		Scanner in = new Scanner (System.in);
-		double s;
+		double subtração;
 		System.out.println ("Valor 1: ");
 		double valor1 = in.nextDouble ();
 		System.out.println ("Valor 2: ");
 		double valor2 = in.nextDouble ();
-		s = valor1 - valor2;
-		System.out.println ("valor 1 - valor 2 = " + s);
+		subtração = valor1 - valor2;
+		System.out.println ("valor 1 - valor 2 = " + subtração);
 	}
+	// Função multiplicar.
 	public static void multiplicar () {
 		Scanner in = new Scanner (System.in);
-		double m;
+		double multiplicação;
 		System.out.println ("Valor 1: ");
 		double valor1 = in.nextDouble ();
 		System.out.println ("Valor 2: ");
 		double valor2 = in.nextDouble ();
-		m = valor1 * valor2;
-		System.out.println ("valor 1 * valor 2 = " + m);
+		multiplicação = valor1 * valor2;
+		System.out.println ("valor 1 * valor 2 = " + multiplicação);
 	}
+	// Função dividir.
 	public static void dividir () {
 		Scanner in = new Scanner (System.in);
-		double d;
+		double divisão;
 		System.out.println ("Valor 1: ");
 		double valor1 = in.nextDouble ();
 		System.out.println ("Valor 2: ");
 		double valor2 = in.nextDouble ();
-		d = valor1 / valor2;
-		System.out.println ("valor 1 / valor 2 = " + d);
+		divisão = valor1 / valor2;
+		System.out.println ("valor 1 / valor 2 = " + divisão);
 	}
 	public static void main (String [] args) {
 		int x;
